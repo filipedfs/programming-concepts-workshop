@@ -1,0 +1,23 @@
+{
+  "name": "programming-concepts-workshop",
+  "version": "1.0.0",
+  "description": "## Instruções 1. Baixar o repositório na sua máquina: ``` git clone https://github.com/filipedfs/programming-concepts-workshop.git ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipedfs/programming-concepts-workshop.git"
+  },
+  "author": "filipedfs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipedfs/programming-concepts-workshop/issues"
+  },
+  "homepage": "https://github.com/filipedfs/programming-concepts-workshop#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
