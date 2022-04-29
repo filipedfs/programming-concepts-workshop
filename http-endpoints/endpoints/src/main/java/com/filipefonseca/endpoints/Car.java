@@ -1,9 +1,13 @@
 package com.filipefonseca.endpoints;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 public class Car {
     private String id;
+
+    @NotNull
     private String model;
     private String color;
 
