@@ -8,9 +8,9 @@ Uma requisição HTTP é uma ação a ser realizada em um recurso (resource) ide
 
 | URL                              | Protocolo | Domínio           | Porta | Pasta   |
 |----------------------------------|:---------:|:-----------------:|:-----:|---------|
-| https://localhost/product        | https     | localhost         | 80    | product |
+| https://localhost/product   | https     | localhost         | 473   | product |
 | http://filipefonseca.com/profile | http      | filipefonseca.com | 80    | profile |
-| https://google.com               | https     | google.com        | 80    | (raiz)  |
+| https://google.com               | https     | google.com        | 473   | (raiz)  |
 | ftp://localhost:9090/image       | http      | localhost         | 9090  | image   |
 
 - **http**  = Hypertext transfer protocol

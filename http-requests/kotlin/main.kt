@@ -6,13 +6,13 @@ import java.net.http.HttpResponse.BodyHandlers;
 
 
 fun main() {
-    val baseUrl = "http://localhost:3000/api/workshop";
+    val baseUrl = "https://filipefonseca.com/api/workshop";
 
         val client = HttpClient.newHttpClient();
 
         val request = HttpRequest.newBuilder(
                 URI.create(baseUrl))
-                .header("accept", "application/json")
+                // .header("accept", "application/json")
                 .build();
 
         val response = client.send(request, BodyHandlers.ofString());

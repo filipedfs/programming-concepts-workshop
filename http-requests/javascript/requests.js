@@ -2,11 +2,11 @@ import fetch from 'node-fetch';
 
 const main = async () => {
     console.log("Script start...");
-    const urlBase = "http://localhost:3000/api/workshop?id=3"
+    const urlBase = "https://filipefonseca.com/api/workshop?id=2"
     const response = await fetch(urlBase, {
-        method: 'POST',
-        body: JSON.stringify({ name: "teste" }),
-        headers: { "Content-Type": "application/json" }
+        method: 'GET',
+        // body: JSON.stringify({ name: "teste" }),
+        // headers: { "Content-Type": "application/json" }
     });
     const statusCode = response.status;
     const statusText = response.statusText;
